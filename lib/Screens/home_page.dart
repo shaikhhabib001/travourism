@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:tms/Widgets/banner.dart';
 
 class HomePage extends StatefulWidget {
@@ -54,30 +55,48 @@ class _HomePageState extends State<HomePage> {
       body: SafeArea(
         child: Column(
           children: [
-            const Column(children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Icon(Icons.abc),
-                  Icon(Icons.abc_outlined),
-                  Icon(Icons.abc_rounded),
-                ],
+            Padding(
+              padding: const EdgeInsets.only(left: 20, right: 20),
+              child: Container(
+                decoration: BoxDecoration(
+                  border: Border.all(width: 2, color: Colors.black),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Column(children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Icon(Icons.abc),
+                      Icon(Icons.abc_outlined),
+                      Icon(Icons.abc_rounded),
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Icon(Icons.abc),
+                      Icon(Icons.abc_outlined),
+                      Icon(Icons.abc_rounded),
+                    ],
+                  ),
+                ]),
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Icon(Icons.abc),
-                  Icon(Icons.abc_outlined),
-                  Icon(Icons.abc_rounded),
-                ],
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            SizedBox(
+              height: 210,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: 4,
+                itemBuilder: (context, index) {
+                  return const BannerHome(
+                    image:
+                        "https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png",
+                  );
+                },
               ),
-            ]),
-            ListView.builder(
-              scrollDirection: Axis.horizontal,
-              itemCount: 3,
-              itemBuilder: (context, index) {
-                return const BannerHome();
-              },
             ),
           ],
         ),
