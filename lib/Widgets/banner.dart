@@ -9,19 +9,11 @@ class BannerHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        SizedBox(
-          child: Card(
-            
-            child: Image(
-              height: 200,
-              image: NetworkImage(image),
-            ),
-          ),
-        ),
-      ],
+    return Card(
+      child: Image(
+        height: 200,
+        image: NetworkImage(image),
+      ),
     );
   }
 }
