@@ -1,6 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:tms/Screens/agencies.dart';
 import 'package:tms/Widgets/agencies_card.dart';
 import 'package:tms/Widgets/guides_card.dart';
 import 'package:tms/Widgets/services_card.dart';
