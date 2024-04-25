@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Messages extends StatelessWidget {
-  const Messages({super.key});
+class Agencies extends StatelessWidget {
+  const Agencies({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const Center(
       child: Text(
-        "No messages",
+        "No agencies added yet",
       ),
     );
   }

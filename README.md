@@ -1,16 +1,16 @@
 # Travourism
 
-A new Flutter project.
+An application based on traveling and tourism with many more features.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is under development.
 
-A few resources to get you started if this is your first Flutter project:
+Social media profiles:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [LinkedIn: shaikhhabib001](https://linkedin.com/in/shaikhhabib001)
+- [Instagram: shaikhhabib001](https://instagram.com/shaikhhabib001)
+- [Facebook: shaikhhabib001](https://facebook.com/shaikhhabib001)
+- [Twitter: shaikhhabib001](https://twitter.com/shaikhhabib001)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Follow me on my Social Media platforms to stay connected.

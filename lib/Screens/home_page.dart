@@ -27,6 +27,7 @@ class _HomePageState extends State<HomePage> {
         title: const Text("Travourism"),
         centerTitle: true,
       ),
+      body: screens[currentPageIndex],
       bottomNavigationBar: NavigationBar(
         onDestinationSelected: (int index) {
           setState(() {
@@ -60,7 +61,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
-      body: screens[currentPageIndex],
+      
     );
   }
 }
