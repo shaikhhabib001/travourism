@@ -12,19 +12,13 @@ class AgenciesCard extends StatelessWidget {
       onTap: () {
         
       },
-      child: SizedBox(
-        width: 150,
-        height: 150,
-        child: Card(
-          borderOnForeground: true,
-          shape: const RoundedRectangleBorder(
-            borderRadius: BorderRadius.all(
-              Radius.circular(15),
-            ),
-          ),
-          shadowColor: Colors.black12,
-          child: Padding(
-            padding: const EdgeInsets.all(20),
+      child: Padding(
+        padding: const EdgeInsets.all(10),
+        child: Container(
+          color: const Color.fromRGBO(248,248,248, 0),
+          child: SizedBox(
+            height: double.infinity,
+            width: 120,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.center,

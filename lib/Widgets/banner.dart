@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class BannerHome extends StatelessWidget {
   final String image;
@@ -9,11 +10,8 @@ class BannerHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      child: Image(
-        height: 200,
-        image: NetworkImage(image),
-      ),
+    return Image(
+      image: NetworkImage(image),
     );
   }
 }
